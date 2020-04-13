@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import { darken, transparentize } from 'polished'
 import Toggle from 'react-switch'
 
-import { Link } from '../../theme'
 import { useDarkModeManager } from '../../contexts/LocalStorage'
 
 const FooterFrame = styled.div`
@@ -78,15 +77,7 @@ export default function Footer() {
     <FooterFrame>
       <FooterElement>
         <Title>
-          <Link id="link" href="https://uniswap.io/">
-            <h1 id="title">About</h1>
-          </Link>
-          <Link id="link" href="https://docs.uniswap.io/">
-            <h1 id="title">Docs</h1>
-          </Link>
-          <Link id="link" href="https://github.com/Uniswap">
-            <h1 id="title">Code</h1>
-          </Link>
+            <h1 id="title">Terms</h1>
         </Title>
       </FooterElement>
 

@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { Link } from '../../theme'
 import Web3Status from '../Web3Status'
 import { darken } from 'polished'
 
@@ -58,15 +57,11 @@ export default function Header() {
       <HeaderElement>
         <Title>
           <Nod>
-            <Link id="link" href="https://uniswap.io">
               <span role="img" aria-label="unicorn">
-                🦄{'  '}
+              👻{'  '}
               </span>
-            </Link>
           </Nod>
-          <Link id="link" href="https://uniswap.io">
-            <h1 id="title">Uniswap</h1>
-          </Link>
+            <h1 id="title">LouisSwap</h1>
         </Title>
       </HeaderElement>
       <HeaderElement>
